@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f7f7f7;
+        }
+
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 10px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #009688;
+        }
+
+        .resume-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 50px;
+            max-width: 1200px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .resume-container h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .resume-container img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+        <div class="icon">&#9733;</div>
+    </nav>
+
+    <div class="resume-container">
+        <h2>My Resume</h2>
+        
+        <!-- Upload your resume image here -->
+        <img src="../resources/img/garbage.jpg" alt="Resume Image">
+        <a href="path/to/your/filename.pdf" target="_blank" download="filename.pdf">
+          </a>
+        <p>If you prefer to download my resume, <a href="../resources/img/Ivan Gorodinski Resume - Copy.pdf" download>click here to download the PDF version.</a></p>
+    </div>
+
+    <footer>
+        <p>Connect with me: <a href="https://www.linkedin.com/in/ivan-gorodinski/">Linkedin</a> | <a href="https://github.com">GitHub</a></p>
+    </footer>
+</body>
+</html>
