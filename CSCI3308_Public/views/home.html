@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .icon {
+            color: white;
+            font-size: 24px;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            max-width: 1200px;
+        }
+
+        .content img {
+            max-width: 300px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .description {
+            max-width: 600px;
+        }
+
+        .description h2 {
+            margin-top: 0;
+        }
+
+        .description a {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+        <div class="icon">&#9733;</div>
+    </nav>
+
+    <div class="content">
+        <img src="../resources/img/FRONT_ID.jpg" alt="Profile Picture">
+        <div class="description">
+            <h2>ABOUT ME</h2>
+            <p>Hello! I am passionate about creating and exploring. My journey is filled with learning and growing every day. I enjoy building projects and sharing my hobbies with others.</p>
+            <p>Feel free to check out my <a href="resume.html">Resume</a> for more details.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Connect with me: <a href="https://www.linkedin.com/in/ivan-gorodinski/">Linkedin</a> | <a href="https://github.com">GitHub</a></p>
+    </footer>
+</body>
+</html>
